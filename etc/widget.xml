@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget id="bluethinkinc_weatherforecast_weather_forecast" class="Bluethinkinc\WeatherForecast\Block\Widget\WeatherForecast">
+		<label>Weather forecast</label>
+		<description>Provide weather forecast in widget using API</description>
+		<parameters>
+			<parameter name="location" xsi:type="select" visible="true" sort_order="10" source_model="Magento\Config\Model\Config\Source\Yesno">
+				<label>Location</label>
+			</parameter>
+		</parameters>
+	</widget>
+</widgets>
